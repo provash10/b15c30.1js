@@ -1,0 +1,186 @@
+Class 30.1 Practice Array(class 29) and Loop
+==========================================
+Loop
+
+Loop types
+1. for Loop
+2. foreach loop
+3. while loop
+4. do while loop
+
+1. for Loop structure
+ for(initialization ; range/condition; increment/Decriment)
+         1                  10             ++
+         10                  5             --
+         //Statement ..........
+
+===================================
+Class 29.1 Practice @JS Array
+==============================
+Array 3 types
+1. 1D Array (Index Array)
+2. 2D Array ()
+3. Associative Array (Object)
+
+let indexArray = [43, 98, 34, 56, 33, 65];
+               =   0   1   2   3   4   5
+
+indexArray[4];
+console.log(indexArray[4]);
+
+
+
+let name = "Rahim";
+let age = 12;
+let blood = "0+"
+
+Or 
+let student ={name: "Rahim", age: 32, blood: "O+"}
+
+==============================================
+####JS Array
+
+// Class 29.1 Practice @JS Array []
+// ============================
+
+// 1. 1D Array (Index Array)
+// Array =>>> indexArray[];
+
+let indexArray = [43, 98, 34, 56, 33, 65];
+// Array =>>> indexArray[4];
+console.log(indexArray[4]);
+console.log(indexArray[1]);
+console.log(indexArray[3]);
+// =============================
+
+// 3. Associative Array (Object) {}
+// student.age;
+
+let name = "Rahim";
+let age  = 12;
+let blood= "O+";
+
+let student = {name: "Rahim", age: 12, blood: "O+"};
+
+// student.age;
+console.log(student.age);
+console.log(student.name);
+
+// ======================================
+
+// 2. 2D Array ()
+
+// 39= 1 no row, 2 no colmn
+
+let twoDimensionalArray = [
+    [43, 98, 32, 2],
+    [11, 81, 39, 47],
+    [12, 5, 100, 77],
+    [91, 1, 2, 0]
+];
+
+// 39 where?
+// twoDimensionalArray[1][2]; //39
+
+console.log(twoDimensionalArray[1][2]);
+
+console.log(twoDimensionalArray[0][0]);
+console.log(twoDimensionalArray[0][1]);
+console.log(twoDimensionalArray[0][2]);
+console.log(twoDimensionalArray[0][3]);
+
+console.log(twoDimensionalArray[1][0]);
+console.log(twoDimensionalArray[1][1]);
+console.log(twoDimensionalArray[1][2]);
+console.log(twoDimensionalArray[1][3]);
+==========================================
+        
+Class 30.1 Practice Array(class 29) and Loop
+--------------------------------------
+// Class 30 Practice Array(class 29) and Loop
+// for(initialization ; range/condition; increment/Decriment)
+//     1                  10             ++
+//     10                  5             --
+//  Statement ..........
+
+//    i= initialization , i <= range/condtion; ++/-- increment/Decriment
+// 
+// =============================================================
+
+// for loop
+
+for(let i= 1; i<=10; i++){
+    console.log("Hello World");
+}
+
+// Again with i's value 
+for(let i= 1; i<=10; i++){
+    console.log("Hello World");
+    console.log(i);
+}
+
+// Now Arry & Loop 
+// Array
+
+let marks = [23, 67, 89, 99, 33];
+
+marks[0];
+marks[1];
+marks[2];
+marks[3];
+marks[4];
+
+console.log(marks[0]);
+console.log(marks[1]);
+console.log(marks[2]);
+console.log(marks[3]);
+console.log(marks[4]);
+
+
+// Now Loop
+
+for (let i=0; i<=4; i++){
+    // console.log(marks[0]);
+    console.log(marks[i]);
+}
+
+// =============
+let number = 20;
+
+if(number%2 == 0){
+    console.log("Even Number");
+}
+else{
+    console.log("Odd Number");
+}
+// ======
+
+let numbers = [34, 56, 67, 90, 45, 74, 89, 123, 76, 100];
+
+// for(let i=0; i<=9; i++){
+//     if(numbers[i]%2 == 0){
+//         console.log("Even Number=");
+//     }
+//     else{
+//         console.log("Odd Number");
+//     }
+// }
+
+for(let i=0; i<=9; i++){
+    if(numbers[i]%2 == 0){
+        console.log("Even Number=" + numbers[i]);
+    }
+    else{
+        console.log("Odd Number=" + numbers[i]);
+    }
+}
+
+// Sorry
+
+for(let i=0; i<=50; i++){
+    console.log("Sorry");
+    console.log(i);
+}
+
+
+
